@@ -4,7 +4,7 @@
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_URL, 
-    "http://myhome.chosun.com/rss/www_section_rss.xml");
+    "http://www.hani.co.kr/rss/lead/");
     $url_source = curl_exec($ch);
     curl_close($ch);
 
